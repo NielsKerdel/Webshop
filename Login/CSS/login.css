@@ -1,0 +1,171 @@
+body {
+	height: 100%;
+	width: 100%;
+	background-image: url("/Images/bg2.jpg"); 
+	 background-repeat: no-repeat;
+    background-size: 100% 100%;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	margin: 0;
+}
+
+
+
+#center {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+#vierkant {
+	margin-left: 12%;
+	height: 200px;
+	width: 150px;
+	background-color: rgba(255, 0, 0, 0.7);
+}
+
+p {
+	color: grey;
+	text-align: center;
+	text-height: 50%;
+	font-size: 20px;
+	line-height: 150px;
+	
+}
+
+#driehoek_1 {
+	margin-left: 12%;
+	width: 0; 
+	height: 0; 
+	border-top: 100px solid rgba(255, 0, 0, 0.7); 
+	border-right: 75px solid transparent;
+	float:left;
+}
+
+
+#driehoek_2 {
+	margin-left: 0px;
+	width: 0; 
+	height: 0; 
+	border-top: 100px solid rgba(255, 0, 0, 0.7); 
+	border-left: 75px solid transparent;
+	float: left;
+}
+
+form { 
+	top: 50%;
+	left: 60%;
+	height: 40%;
+	width: 30%;
+	margin: -15% 0 0 -25%;
+	position: absolute;
+}
+
+#Block {
+	padding: 20px;
+	background-color: rgba(42, 35, 34, 0.7);
+}
+
+input[type=username], input[type=password], input[type=email], input[type=gebruikersnaam], input[type=wachtwoord], select[type=bank_keuze], textarea {
+  font    : .9em/1.5em "handwriting", sans-serif;
+  padding : 0 10px;
+  margin  : 0;
+  width   : 100%;
+  height: 15%;
+  background: #ffffff;
+  border-radius: 5px;
+  border: 3px solid grey;
+  display:block;
+}
+
+input[type=username] {
+}
+
+input[type=password] {
+}
+
+input[type=username]:focus, input[type=password]:focus, input[type=email]:focus, input[type=gebruikersnaam]:focus, input[type=wachtwoord]:focus, textarea:focus {
+  border-color: blue;
+  outline      : none;
+}
+
+input[type=username]:hover, input[type=password]:hover, input[type=email]:hover, input[type=gebruikersnaam]:hover, input[type=wachtwoord]:hover, textarea:hover {
+  border-color: blue;
+  outline      : none;
+}
+
+input[type=submit] {
+  color: white;
+  font-weight: 900;
+  padding : 0 10px;
+  margin  : 0;
+  width   : 100%;
+  height: 15%;
+  border-radius: 5px solid #707070 ;
+  background-color: #707070 ;
+}
+
+input[type=submit] {
+	
+}
+
+a {
+	text-decoration: none;
+	margin-top: 6%;
+}
+
+#a_1 {
+	
+}
+
+#a_2 {
+	margin-left: 50%;
+}
+
+a:link {
+	color: blue;
+}
+
+a:hover {
+	color: orange;
+}
+
+a:active {
+	color: red;
+}
+
+/** iDeal.html **/
+#page_background {
+	width: 100%;
+	height: 100%;
+	background: white;
+}
+
+img {
+	margin-left: 2%;
+	margin-top: 2%;
+	width: 7%;
+	height: 7%;
+}
+
+#bank_keuze {
+	top: 50%;
+	left: 50%;
+	height: 50%;
+	width: 50%;
+	margin: -15% 0 0 -25%;
+	position: absolute;
+	border: 3px solid grey;
+	border-radius: 10px;
+	background-color: white;
+}
+
+select[type=bank_keuze] {
+	float: left;
+}
+
+
+/** Te doen:
+3. Keuze tot betalen bij registratie
+6. Output text verbeteren 
+**/
